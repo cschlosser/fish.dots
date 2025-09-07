@@ -7,4 +7,6 @@ if status is-interactive
     set -g theme_newline_cursor yes
     set -g theme_date_timezone Europe/Berlin
     set -g theme_date_format "+%a %F %T"
+
+    fish_add_path -gP ~/.local/bin
 end
